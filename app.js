@@ -13,7 +13,7 @@ app.use(cookieParser())
 app.use(bodyParser.json())
 app.use(cors({
     credentials: true,
-    origin: ['http://localhost:3000']
+    origin: ['http://localhost:3000', 'https://contest-scrapper-fontend.vercel.app']
 }))
 app.use(routes)
 
